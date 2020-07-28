@@ -2,9 +2,9 @@
 
 ## 页面
 
-1.  [中文（简体）](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.md)
-2.  [English](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.en.md)
-3.  [日本語](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.ja.md)
+1.  [中文（简体）](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.md)
+2.  [English](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.en.md)
+3.  [日本語](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.ja.md)
 
 ## 介绍
 
