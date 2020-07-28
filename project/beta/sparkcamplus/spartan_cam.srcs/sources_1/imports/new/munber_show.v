@@ -32,12 +32,14 @@ module munber_show(
         led2 <= num[1];
         end
 
+/*
 wire [11:0] percent;
 assign percent = 100*(num[3:2]); 
 reg [10:0] cnt = 0; 
    always@(posedge clk) begin
         if(cnt == 1000) cnt<=0;
         else cnt <= cnt+1;end
+*/
 
 /* 翻来覆去这里就是过不了实现......干脆注释掉算了 */   
 /*    always@(posedge clk) begin

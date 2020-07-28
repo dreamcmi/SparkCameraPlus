@@ -1,0 +1,316 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7944
+License: Customer
+
+Current time: 	Tue Jul 28 13:29:00 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1280x1024
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 22 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/vivado.log
+Vivado journal file location: 	C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/vivado.jou
+Engine tmp dir: 	C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/.Xil/Vivado-7944-WIN-PHF0MALM9JS
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 535 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2346 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Administrator\Desktop\FPGA\SparkCameraPlus\project\beta\sparkcamplus\spartan_cam.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 591 MB. GUI used memory: 42 MB. Current time: 7/28/20, 1:29:04 PM CST
+// Tcl Message: open_project C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+91662kb) [00:00:45]
+// [Engine Memory]: 660 MB (+540736kb) [00:00:45]
+// [GUI Memory]: 101 MB (+6801kb) [00:00:46]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3390 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 694 MB (+838kb) [00:00:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  3406 ms.
+// Tcl Message: open_project C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 729 MB. GUI used memory: 60 MB. Current time: 7/28/20, 1:29:37 PM CST
+// [Engine Memory]: 729 MB (+248kb) [00:00:59]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2740 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2815 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1689 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:32 . Memory (MB): peak = 737.078 ; gain = 127.223 
+// Project name: spartan_cam; location: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus; part: xc7s15ftgb196-1
+// [Engine Memory]: 1,104 MB (+354964kb) [00:01:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,104 MB. GUI used memory: 79 MB. Current time: 7/28/20, 1:29:53 PM CST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 536ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 113 MB (+7218kb) [00:01:19]
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  2410 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 877ms to process. Increasing delay to 4000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5789 ms. Increasing delay to 17367 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4984 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 969ms to process. Increasing delay to 5000 ms.
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  2837 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6848 ms. Increasing delay to 6000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 352 ms. Decreasing delay to 2352 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2186 ms. Increasing delay to 6558 ms.
+// [GUI Memory]: 120 MB (+1302kb) [00:03:44]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7984 ms. Increasing delay to 23952 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8018 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5768 ms. Increasing delay to 8000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1719 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 507 ms. Decreasing delay to 2507 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1460 ms. Increasing delay to 4380 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1427 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8362 ms. Increasing delay to 9000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1386 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1352 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1094 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8691 ms. Increasing delay to 26073 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5626 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2900 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2756 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1376 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3521 ms.
+// PAPropertyPanels.initPanels (colorDetect.v) elapsed time: 3.5s
+// Elapsed time: 250 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/new/colorDetect.v" -l26'
+// WARNING: HEventQueue.dispatchEvent() is taking  1459 ms.
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dilate (dilate.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, munber_show (munber_show.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, munber_show (munber_show.v)]", 5, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/imports/new/munber_show.v" -l23'
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 276 ms. Decreasing delay to 2276 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1433 ms. Increasing delay to 4299 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1003ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7437 ms. Increasing delay to 10000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (munber_show.v) elapsed time: 0.2s
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10123 ms. Increasing delay to 30369 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1535 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4545 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 460 ms. Decreasing delay to 2460 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10698 ms. Increasing delay to 10000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1133 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10011 ms. Increasing delay to 30033 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6123 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 9882 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 138 ms. Decreasing delay to 2138 ms.
+// Elapsed time: 266 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, munber_show (munber_show.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, munber_show (munber_show.v)]", 5, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/imports/new/munber_show.v" -l23'
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rgb2hsv_top (rgb2hsv_top.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rgb2hsv_top (rgb2hsv_top.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/new/rgb2hsv_top.v" -l21'
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, munber_show (munber_show.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, erode (erode.v)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dilate (dilate.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dilate (dilate.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/new/dilate.v" -l23'
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dilate (dilate.v)]", 3, false); // B (D, cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1494 ms. Increasing delay to 4482 ms.
+// Elapsed time: 15 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // af (cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_Cancel", "Cancel"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af (al, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  2298 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1554 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 4465ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4465 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2328 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1452 ms.
+// Elapsed time: 30 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v)]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), clk_wiz_0 : system_clk_wiz_0_1 (system_clk_wiz_0_1.xci)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), clk_wiz_0 : system_clk_wiz_0_1 (system_clk_wiz_0_1.xci)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), clk_wiz_0 : system_clk_wiz_0_1 (system_clk_wiz_0_1.xci)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''system_clk_wiz_0_1.xci' IP is part of a block design. Please open the block design 'system.bd' and customize the IP. (Re-customize IP)'
+// 'B' command handler elapsed time: 6 seconds
+selectButton("PAResourceQtoS.RecustomizeCore_THIS_IP_PART_OF_BLOCK_DESIGN_OK", "OK"); // JButton (C, I)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), clk_wiz_0 : system_clk_wiz_0_1 (system_clk_wiz_0_1.xci)]", 7); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cp)
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), clk_wiz_1 : system_clk_wiz_1_0 (system_clk_wiz_1_0.xci)]", 8); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Show IP Hierarchy"); // A (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), bayer2rgb_0 : system_bayer2rgb_0_0 (Module Reference Wrapper)]", 6); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), bayer2rgb_0 : system_bayer2rgb_0_0 (Module Reference Wrapper), system_bayer2rgb_0_0 (system_bayer2rgb_0_0.v)]", 7); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), bayer2rgb_0 : system_bayer2rgb_0_0 (Module Reference Wrapper), system_bayer2rgb_0_0 (system_bayer2rgb_0_0.v)]", 7); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), bayer2rgb_0 : system_bayer2rgb_0_0 (Module Reference Wrapper), system_bayer2rgb_0_0 (system_bayer2rgb_0_0.v)]", 7); // B (D, cp)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''system_clk_wiz_0_1.xci' IP is part of a block design. Please open the block design 'system.bd' and customize the IP. (Re-customize IP)'
+// 'B' command handler elapsed time: 4 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), bayer2rgb_0 : system_bayer2rgb_0_0 (Module Reference Wrapper)]", 6); // B (D, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_1]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_1]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system]", 4); // B (D, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, colorDetect (colorDetect.v)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Launch External Editor: 'C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/new/colorDetect.v" -l26'
+// Elapsed time: 70 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // af (cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (cp):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jul 28 13:43:02 2020] Launched synth_1... Run output will be captured here: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// WARNING: HTimer (StateMonitor Timer) is taking 686ms to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 410ms to process. Increasing delay to 3000 ms.
+// ah (cp): Synthesis Completed: addNotify
+// [GUI Memory]: 126 MB (+332kb) [00:20:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,104 MB. GUI used memory: 67 MB. Current time: 7/28/20, 1:59:56 PM CST
