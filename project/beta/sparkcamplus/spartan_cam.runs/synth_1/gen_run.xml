@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1595914981">
+<GenRun Id="synth_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1595999027">
   <File Type="PA-TCL" Name="system_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="system_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="system_wrapper_reports.tcl"/>
@@ -298,6 +298,22 @@
     </File>
     <File Path="$PPRDIR/component.xml">
       <FileInfo SFType="IPXACT"/>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/qspi_slave.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/qspi_addr.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>

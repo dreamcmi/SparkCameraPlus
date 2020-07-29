@@ -275,11 +275,17 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_wiz_0_1/system_clk_wiz_0_1.xci">
-          <Proxy FileSetName="system_clk_wiz_0_1"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mdm_1_0/system_mdm_1_0.xci">
+          <Proxy FileSetName="system_mdm_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_microblaze_0_0/system_microblaze_0_0.xci">
-          <Proxy FileSetName="system_microblaze_0_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dlmb_v10_0/system_dlmb_v10_0.xci">
+          <Proxy FileSetName="system_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ilmb_v10_0/system_ilmb_v10_0.xci">
+          <Proxy FileSetName="system_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dlmb_bram_if_cntlr_0/system_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="system_dlmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_csi2dvp_0_0/system_csi2dvp_0_0.xci">
           <Proxy FileSetName="system_csi2dvp_0_0"/>
@@ -287,20 +293,11 @@
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xci">
           <Proxy FileSetName="system_clk_wiz_1_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_uartlite_0_0/system_axi_uartlite_0_0.xci">
+          <Proxy FileSetName="system_axi_uartlite_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_bayer2rgb_0_0/system_bayer2rgb_0_0.xci">
           <Proxy FileSetName="system_bayer2rgb_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ilmb_v10_0/system_ilmb_v10_0.xci">
-          <Proxy FileSetName="system_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mdm_1_0/system_mdm_1_0.xci">
-          <Proxy FileSetName="system_mdm_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ilmb_bram_if_cntlr_0/system_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="system_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_iic_0_0/system_axi_iic_0_0.xci">
-          <Proxy FileSetName="system_axi_iic_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rgb2dvi_0_1/system_rgb2dvi_0_1.xci">
           <Proxy FileSetName="system_rgb2dvi_0_1"/>
@@ -314,29 +311,32 @@
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_lcd_num_0_0/system_lcd_num_0_0.xci">
           <Proxy FileSetName="system_lcd_num_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dlmb_bram_if_cntlr_0/system_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="system_dlmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rst_clk_wiz_0_200M_0/system_rst_clk_wiz_0_200M_0.xci">
-          <Proxy FileSetName="system_rst_clk_wiz_0_200M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dlmb_v10_0/system_dlmb_v10_0.xci">
-          <Proxy FileSetName="system_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_lmb_bram_0/system_lmb_bram_0.xci">
-          <Proxy FileSetName="system_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_uartlite_0_0/system_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="system_axi_uartlite_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_0/system_xbar_0.xci">
-          <Proxy FileSetName="system_xbar_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_csi2_d_phy_rx_0_1/system_csi2_d_phy_rx_0_1.xci">
           <Proxy FileSetName="system_csi2_d_phy_rx_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_csi_to_axis_0_1/system_csi_to_axis_0_1.xci">
           <Proxy FileSetName="system_csi_to_axis_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rst_clk_wiz_0_200M_0/system_rst_clk_wiz_0_200M_0.xci">
+          <Proxy FileSetName="system_rst_clk_wiz_0_200M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ilmb_bram_if_cntlr_0/system_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="system_ilmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_lmb_bram_0/system_lmb_bram_0.xci">
+          <Proxy FileSetName="system_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_iic_0_0/system_axi_iic_0_0.xci">
+          <Proxy FileSetName="system_axi_iic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_microblaze_0_0/system_microblaze_0_0.xci">
+          <Proxy FileSetName="system_microblaze_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_wiz_0_1/system_clk_wiz_0_1.xci">
+          <Proxy FileSetName="system_clk_wiz_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_0/system_xbar_0.xci">
+          <Proxy FileSetName="system_xbar_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.v">
@@ -430,6 +430,22 @@
       </File>
       <File Path="$PPRDIR/component.xml">
         <FileInfo SFType="IPXACT"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/qspi_slave.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/qspi_addr.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>

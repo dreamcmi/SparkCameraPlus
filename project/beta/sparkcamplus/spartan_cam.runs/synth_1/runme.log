@@ -32,18 +32,18 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Deskto
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_xadc_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/xup_rgb2hsv_top_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-update_ip_catalog: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 278.535 ; gain = 29.250
+update_ip_catalog: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 278.730 ; gain = 24.180
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
 Current IP cache path is c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.cache/ip 
-add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 315.957 ; gain = 37.422
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:26 . Memory (MB): peak = 315.816 ; gain = 37.086
 Command: synth_design -top system_wrapper -part xc7s15ftgb196-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2908 
+INFO: Helper process launched with PID 3316 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 425.555 ; gain = 102.695
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 424.258 ; gain = 101.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'system_wrapper' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
@@ -53,33 +53,33 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2018.3/script
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [C:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
 INFO: [Synth 8-6157] synthesizing module 'system' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:915]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_axi_iic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_0' (2#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_axi_iic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_axi_iic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_0' (2#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_axi_iic_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_iic_0' of module 'system_axi_iic_0_0' requires 27 connections, but only 25 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1126]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_uartlite_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_uartlite_0_0' (3#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_uartlite_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_uartlite_0_0' (3#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_axi_uartlite_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'system_axi_uartlite_0_0' requires 22 connections, but only 21 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1152]
-INFO: [Synth 8-6157] synthesizing module 'system_bayer2rgb_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_bayer2rgb_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_bayer2rgb_0_0' (4#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_bayer2rgb_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_clk_wiz_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_clk_wiz_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'system_clk_wiz_0_1' (5#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_clk_wiz_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'system_clk_wiz_1_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'system_clk_wiz_1_0' (6#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'system_csi2_d_phy_rx_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi2_d_phy_rx_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_csi2_d_phy_rx_0_1' (7#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi2_d_phy_rx_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_bayer2rgb_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_bayer2rgb_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_bayer2rgb_0_0' (4#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_bayer2rgb_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_clk_wiz_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_clk_wiz_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'system_clk_wiz_0_1' (5#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_clk_wiz_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'system_clk_wiz_1_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'system_clk_wiz_1_0' (6#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'system_csi2_d_phy_rx_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi2_d_phy_rx_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_csi2_d_phy_rx_0_1' (7#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi2_d_phy_rx_0_1_stub.v:6]
 WARNING: [Synth 8-350] instance 'csi2_d_phy_rx_0' of module 'system_csi2_d_phy_rx_0_1' requires 33 connections, but only 25 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1194]
-INFO: [Synth 8-6157] synthesizing module 'system_csi2dvp_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi2dvp_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_csi2dvp_0_0' (8#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi2dvp_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_csi_to_axis_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi_to_axis_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_csi_to_axis_0_1' (9#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_csi_to_axis_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_digital_recognition_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_digital_recognition_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_digital_recognition_0_0' (10#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_digital_recognition_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_lcd_num_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_lcd_num_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_lcd_num_0_0' (11#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_lcd_num_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_mdm_1_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_mdm_1_0' (12#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_microblaze_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_microblaze_0_0' (13#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_csi2dvp_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi2dvp_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_csi2dvp_0_0' (8#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi2dvp_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_csi_to_axis_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi_to_axis_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_csi_to_axis_0_1' (9#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_csi_to_axis_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_digital_recognition_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_digital_recognition_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_digital_recognition_0_0' (10#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_digital_recognition_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_lcd_num_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_lcd_num_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_lcd_num_0_0' (11#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_lcd_num_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_mdm_1_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_mdm_1_0' (12#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_microblaze_0_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_microblaze_0_0' (13#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_microblaze_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'microblaze_0' of module 'system_microblaze_0_0' requires 52 connections, but only 51 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1281]
 INFO: [Synth 8-6157] synthesizing module 'system_microblaze_0_axi_periph_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1462]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1RZ0IW6' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:12]
@@ -91,31 +91,31 @@ INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_QYRHL1' (16#1) [
 WARNING: [Synth 8-350] instance 'm02_couplers' of module 'm02_couplers_imp_QYRHL1' requires 74 connections, but only 73 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:2009]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1LZPV07' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:768]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1LZPV07' (17#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:768]
-INFO: [Synth 8-6157] synthesizing module 'system_xbar_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_xbar_0' (18#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_xbar_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xbar_0' (18#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_xbar_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'system_microblaze_0_axi_periph_0' (19#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1462]
 WARNING: [Synth 8-350] instance 'microblaze_0_axi_periph' of module 'system_microblaze_0_axi_periph_0' requires 98 connections, but only 72 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1333]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_OGE0N8' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:534]
-INFO: [Synth 8-6157] synthesizing module 'system_dlmb_bram_if_cntlr_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_dlmb_bram_if_cntlr_0' (20#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_dlmb_v10_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_dlmb_v10_0' (21#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_dlmb_bram_if_cntlr_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_dlmb_bram_if_cntlr_0' (20#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_dlmb_v10_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_dlmb_v10_0' (21#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_dlmb_v10_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'system_dlmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:680]
-INFO: [Synth 8-6157] synthesizing module 'system_ilmb_bram_if_cntlr_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_ilmb_bram_if_cntlr_0' (22#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_ilmb_v10_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_ilmb_v10_0' (23#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_ilmb_bram_if_cntlr_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_ilmb_bram_if_cntlr_0' (22#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_ilmb_v10_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_ilmb_v10_0' (23#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_ilmb_v10_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'system_ilmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:726]
-INFO: [Synth 8-6157] synthesizing module 'system_lmb_bram_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_lmb_bram_0' (24#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_lmb_bram_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_lmb_bram_0' (24#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_lmb_bram_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'lmb_bram' of module 'system_lmb_bram_0' requires 16 connections, but only 14 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:751]
 INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_OGE0N8' (25#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:534]
-INFO: [Synth 8-6157] synthesizing module 'system_rgb2dvi_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rgb2dvi_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_rgb2dvi_0_1' (26#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rgb2dvi_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_rgb_test_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rgb_test_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_rgb_test_0_1' (27#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rgb_test_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'system_rst_clk_wiz_0_200M_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rst_clk_wiz_0_200M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'system_rst_clk_wiz_0_200M_0' (28#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-5672-WIN-PHF0MALM9JS/realtime/system_rst_clk_wiz_0_200M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_rgb2dvi_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rgb2dvi_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rgb2dvi_0_1' (26#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rgb2dvi_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_rgb_test_0_1' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rgb_test_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rgb_test_0_1' (27#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rgb_test_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_rst_clk_wiz_0_200M_0' [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rst_clk_wiz_0_200M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rst_clk_wiz_0_200M_0' (28#1) [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/.Xil/Vivado-7784-WIN-PHF0MALM9JS/realtime/system_rst_clk_wiz_0_200M_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'rst_clk_wiz_0_200M' of module 'system_rst_clk_wiz_0_200M_0' requires 10 connections, but only 9 given [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/synth/system.v:1448]
 INFO: [Synth 8-6157] synthesizing module 'system_xlconstant_0_0' [c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/ip/system_xlconstant_0_0/synth/system_xlconstant_0_0.v:57]
 INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.srcs/sources_1/bd/system/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
@@ -142,7 +142,7 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_1RZ0IW6 has unconnected port M_A
 WARNING: [Synth 8-3331] design m00_couplers_imp_1RZ0IW6 has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_1RZ0IW6 has unconnected port S_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 482.336 ; gain = 159.477
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 480.797 ; gain = 158.074
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -155,10 +155,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.336 ; gain = 159.477
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 480.797 ; gain = 158.074
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.336 ; gain = 159.477
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 480.797 ; gain = 158.074
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -224,27 +224,27 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 752.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.770 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 752.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.770 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 752.629 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 752.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.770 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 750.770 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'system_i/csi2dvp_0' at clock pin 's_axis_aclk' is different from the actual clock period '4.761', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'system_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 752.629 ; gain = 429.770
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 750.770 ; gain = 428.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s15ftgb196-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 752.629 ; gain = 429.770
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 750.770 ; gain = 428.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -304,10 +304,10 @@ Applied set_property DONT_TOUCH = true for system_i/digital_recognition_0. (cons
 Applied set_property DONT_TOUCH = true for system_i/lcd_num_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for system_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 752.629 ; gain = 429.770
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 750.770 ; gain = 428.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 752.629 ; gain = 429.770
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 750.770 ; gain = 428.047
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -352,7 +352,7 @@ WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_0 has unconnected 
 WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 752.629 ; gain = 429.770
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 750.770 ; gain = 428.047
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -377,13 +377,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/rgb2dvi_0/Serial
 INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'system_i/rgb2dvi_0/PixelClk' to 'system_i/clk_wiz_1/bbstub_clk_out1/O'
 INFO: [Synth 8-5819] Moved 10 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 757.176 ; gain = 434.316
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 757.934 ; gain = 435.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 757.324 ; gain = 434.465
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 757.934 ; gain = 435.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -395,7 +395,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -419,7 +419,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -432,7 +432,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -444,25 +444,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -536,17 +536,17 @@ Report Instance Areas:
 |5     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_OGE0N8 |   496|
 +------+------------------------------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 767.820 ; gain = 174.668
-Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 767.820 ; gain = 444.961
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 768.211 ; gain = 175.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 768.211 ; gain = 445.488
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 780.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 777.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
@@ -554,10 +554,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 114 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 780.355 ; gain = 464.398
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 780.355 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 777.617 ; gain = 461.801
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 777.617 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.runs/synth_1/system_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Jul 28 13:44:38 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 13:05:30 2020...
