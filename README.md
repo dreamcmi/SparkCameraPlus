@@ -2,9 +2,15 @@
 
 ## 页面
 
+#### Gitee
+
+1.  [中文（简体）](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.md)
+2.  [English](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.en.md)
+3.  [日本語](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/README.ja.md)
+
+#### GitHub
+
 1.  [中文（简体）](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.md)
-2.  [English](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.en.md)
-3.  [日本語](https://github.com/dreamcmi/SparkCameraPlus/blob/master/README.ja.md)
 
 ## 介绍
 
@@ -33,6 +39,26 @@ SparkCameraPlus
 
 ## 架构
 
+### 平台
+
+Spartan Edge Accelerator Board + ESP32/Arduino Uno
+
+### 设计
+
+利用摄像头采集车牌进行车牌识别，经过串口输出到 Arduino 设备上（可以通过 ESP32 联网通过 MQTT 发送数据） 。知识点：MQTT，Camera，QSPI，Arduino。应用方向及场景：道路交通车牌识别登记及违章登记联网
+
+### 硬件
+
+![](https://gitee.com/dreamcmi/SparkCameraPlus/raw/master/pictures/SEA.png)
+
+Spartan Edge Accelerator Board SEA-S7 \* 1
+
+Raspberry Pi Camera Rev 1.3 OV5647 \* 1
+
+![](https://gitee.com/dreamcmi/SparkCameraPlus/raw/master/pictures/hardware.png)
+
+### 算法
+
 #### 图像灰度化
 
 1.  遵循图像灰度化核心思想是 R = G = B ，这个值也叫灰度值。
@@ -44,6 +70,8 @@ SparkCameraPlus
 1.  滤波法：相对比较传统的一类算法，通过设计滤波器对图像进行处理。特点是速度往往比较快，很多卷积滤波可以借助快速傅里叶变化来加速。
 2.  聚类低秩（Low-Rankness）：除了可稀疏性，低秩性也是自然图片常见的一个特性。数学上，可稀疏表达的数据可以被认为是在 Union of low-dimensional subspaces；而低秩数据则是直接存在于一个 Low-dimensional subspace。
 
+### 代码
+
 #### Arduino & ESP32
 
 1.  Arduino Uno
@@ -53,6 +81,14 @@ SparkCameraPlus
 2.  ESP32
 
 ![](https://gitee.com/dreamcmi/SparkCameraPlus/raw/master/pictures/ESP32.jpg)
+
+### 已实现
+
+截至 2020 年 7 月 31 日，已实现将图片灰度显示及串口输出。
+
+### 未实现
+
+截至 2020 年 7 月 31 日，部分代码还未优化。
 
 ## 实验结果
 
@@ -78,8 +114,8 @@ SparkCameraPlus
 
 [Gitee](https://gitee.com/peter-zhifei) | [GitHub](https://github.com/peter-zhifei) | [HomePage](https://panzhifei.xyz/)
 
-![](https://gitee.com/dreamcmi/SparkCameraPlus/raw/master/pictures/5.jpg)
-
 ## License
 
 [GPL-2.0](https://gitee.com/dreamcmi/SparkCameraPlus/blob/master/LICENSE)
+
+![](https://gitee.com/dreamcmi/SparkCameraPlus/raw/master/pictures/5.jpg)

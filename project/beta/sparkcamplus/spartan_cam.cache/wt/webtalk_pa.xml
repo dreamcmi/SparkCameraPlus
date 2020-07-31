@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Fri Jul 31 15:56:52 2020">
+<application name="pa" timeStamp="Fri Jul 31 19:54:40 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="df6005a7bc114abb9981852b6eb1097e" type="ProjectID"/>
 <property name="ProjectIteration" value="43" type="ProjectIteration"/>
@@ -260,9 +260,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="UpgradeIP_UPGRADE_IP_LIST" value="1" type="GuiHandlerData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="30" type="GuiMode"/>
+<property name="GuiMode" value="31" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="27" type="TclMode"/>
+<property name="TclMode" value="28" type="TclMode"/>
 </item>
 </section>
 </application>
