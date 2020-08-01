@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 31 21:11:24 2020
+# Process ID: 3576
+# Current directory: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2740 C:\Users\Administrator\Desktop\FPGA\SparkCameraPlus\project\beta\sparkcamplus\spartan_cam.xpr
+# Log file: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/spartan_cam.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_Dilate_V1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_move_en_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_Erode_V1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/IP/csi2_d_phy_rx_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/IP/if'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_ColorDetect_V1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_debounce_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_cam_ov7670_ov7725_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_PWM_gen_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/IP/rgb2dvi_v1_2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_RGB24_16_V1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_IICctrl_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/IP/csi_to_axis_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_ram_read_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_RGB16_24_V1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_ov7725_regData_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_servo_ctrl_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_region_cut_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_vga_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/XUP_xadc_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/FPGA/SparkCameraPlus/project/beta/sparkcamplus/UDP_IP/xup_rgb2hsv_top_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 758.785 ; gain = 146.090
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 21:14:00 2020...
